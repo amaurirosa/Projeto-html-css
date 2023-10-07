@@ -7,11 +7,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portifólio Amauri</title>
         <!-- Link para conectar o arquivo HTML com o arquivo CSS-->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./style/style.css">
     </head>
 
     <body>
-        <header></header>
+        <header class="cabecalho">
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link" href="index.html">Home</a>
+                <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+                <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
+            </nav>
+        </header>
+        
         <main class="apresentacao">
             <section class="apresentacao__conteudo">
                 <!-- Criado uma classe nesse 'strong' para que somente ele fique em destaque-->
@@ -30,9 +37,12 @@
                     </a>
                 </div>
             </section>
-            <img src="html-logo-main/Amauri2.jpg" alt="Foto do Amauri Rosa.">
+            <img src="./assets/Amauri2.jpg" alt="Foto de Amauri Rosa.">
         </main>
-        <footer></footer>
+
+        <footer class="rodape">
+            <p>Desenvolvido por Amauri</p>
+        </footer>
     </body>
 
 </html>
