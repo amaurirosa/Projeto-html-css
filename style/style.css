@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2? family= Krona+One & family= Montserrat:wght@400;600 & display=swap');
 
 :root {
-    --cor-primaria: #001524;
+    --cor-primaria: #040D12;
     --cor-secundaria: #F1F0E8;
-    --cor-terciaria: #26577C;
+    --cor-terciaria: #FFC436;
     --cor-hover: #1F4172;
 
     --fonte-primaria: 'Krona One', sans-serif;
@@ -69,7 +69,12 @@ body {
     font-family: var(--fonte-secundaria);
 }
 
-.apresentacao__conteudo__texto a{
+.apresentacao__conteudo__texto__curriculo {
+    font-size: 24px;
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__conteudo__texto__curriculo a {
     text-decoration: none;
     color: var(--cor-terciaria);
 }
